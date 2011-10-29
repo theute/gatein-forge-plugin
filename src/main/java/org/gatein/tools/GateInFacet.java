@@ -21,7 +21,7 @@ import org.jboss.shrinkwrap.descriptor.api.spec.servlet.web.ServletDef;
 import org.jboss.shrinkwrap.descriptor.api.spec.servlet.web.WebAppDescriptor;
 
 /**
- * 
+ *
  * @author bleathem
  */
 @Alias("org.gatein")
@@ -76,9 +76,9 @@ public class GateInFacet extends BaseFacet
 
    /**
     * Set the context-params and Servlet definition if they are not yet set.
-    * 
+    *
     * @param version
-    * 
+    *
     * @param writer
     */
    private void installDescriptor(GateInVersion version)
@@ -126,7 +126,7 @@ public class GateInFacet extends BaseFacet
 
    /**
     * A helper method to determine if the Faces Servlet is defined in the web.xml
-    * 
+    *
     * @param descriptor
     * @return true if the Faces Servlet is defined, false otherwise
     */
@@ -150,7 +150,7 @@ public class GateInFacet extends BaseFacet
 
    /**
     * Install the maven dependencies required for GateIn
-    * 
+    *
     * @param writer
     */
    private void installDependencies(GateInVersion version)
@@ -172,7 +172,7 @@ public class GateInFacet extends BaseFacet
 
    /**
     * Install the richfaces-bom in the pom's dependency management
-    * 
+    *
     * @param project
     * @param writer
     */

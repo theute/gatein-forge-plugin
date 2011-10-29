@@ -88,7 +88,7 @@ public class GateInPlugin implements Plugin
 
    /**
     * Create a simple template file, and a GateIn enabled index file that uses the template
-    * 
+    *
     * @param pipeOut
     */
    private void createFaceletFiles(PipeOut pipeOut)
@@ -113,7 +113,7 @@ public class GateInPlugin implements Plugin
 
    /**
     * Create a simple JSF managed bean to back the GateIn input in the example facelet file
-    * 
+    *
     * @param pipeOut
     */
    private void createRichBean(PipeOut pipeOut)
