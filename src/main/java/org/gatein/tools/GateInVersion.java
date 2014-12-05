@@ -9,7 +9,7 @@ import org.jboss.forge.project.dependencies.DependencyBuilder;
 import org.jboss.forge.project.dependencies.ScopeType;
 
 /**
- * 
+ *
  * @author bleathem
  */
 public enum GateInVersion
